@@ -1,8 +1,13 @@
-# CodeGenerateForMySelf
-个人用的代码生成工具
-==========================
-python 使用的python2.7
-使用方法
-./test.py FileName param0 param1 param2...
-模板配置在命名为template的文件中，现在只支持${author} 系统用户名${time} 系统时间${param0}命令参数
-例子参照template.cpp template.h
+![mahua](mahua-logo.jpg)
+##个人用的代码生成工具
+通过简单的配置命令 通过模板自动生成文本代码
+
+使用前请安装python2.7
+
+##使用方法
+先配置好模板文件，参照template.h template.cpp
+
+
+现在支持的命令参数有${author} ${time} ${param0} ${param1}...个数取决于命令参数的个数
+
+使用脚本 例子：./test.py FileName param0 param1 param2
