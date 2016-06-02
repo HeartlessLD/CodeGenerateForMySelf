@@ -10,4 +10,4 @@
 
 现在支持的命令参数有${author} ${time} ${param0} ${param1}...个数取决于命令参数的个数
 
-使用脚本 例子：./test.py FileName param0 param1 param2
+使用脚本 例子：python test.py FileName param0 param1 param2
